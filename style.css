@@ -1,0 +1,76 @@
+body{
+   padding: 10px;
+}
+.mainBlock{
+   float: left;
+   width: 70%;
+   margin-right: 2.5%;
+}
+
+.infoBlock{
+   float: left;
+   height: 600px;
+   width: 25%;
+   
+}
+.stayLeft{
+   float: left;
+   margin-right: 25px;
+}
+.floating{
+   float: left;
+}
+.boarding{
+   border: 1px solid black
+}
+#map {
+   height: 100%;
+ }
+.mapWrap{
+   height: 650px;
+ }
+.peopleWrap{
+   height: 650px;
+ }
+ .people{
+    height: 96%;
+ }
+.totalPeople{
+   height: 4%;
+   display: flex;
+   justify-content: center;
+}
+.total{
+   margin-left: 5px;
+   margin-right: 5px;
+}
+.timeInfo{
+   margin-bottom: 10px;
+   padding-left: 1%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.issPosition{
+   margin-bottom: 10px;
+   padding-left: 1%;
+}
+.list{
+   margin-left: 0px;
+   padding-left: 0px;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+}
+.listItem{
+   list-style-type: none;
+   border: 1px solid black;
+   height: 50px;
+   width: 283px;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Task space</title>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="wrap">
+      <div class="mainBlock">
+         <div class="issPosition boarding">
+                  <strong>ISS is now located at:</strong><br>
+                  <div class="stayLeft">Longtitude: <span class="longitude"></span></div>
+                  <div>Latitude: <span class="latitude"></span></div>
+         </div>
+         <div class="mapWrap">
+            <div id="map"></div>
+         </div>
+      </div>
+      <div class="infoBlock" >
+         <div class="timeInfo boarding">
+            <div ><strong>Current UTC time: <span class="time"></span></strong></div>
+            <div class="date"><i></i></div>
+         </div>
+         <div class="peopleWrap">
+            <div class="people boarding">
+               <ul class="list">
+               </ul>
+            </div>
+            <div class="totalPeople boarding">Total amount: <div class="total">  </div> people on ISS</div>
+         </div>
+   </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://maps.googleapis.com/maps/api/js?keyAIzaSyBdc-zS440RsiE-nwNZzw_quEhM3r71OjQ"></script>
+   <script src="./index.js"></script>
+</body>
+</html>
